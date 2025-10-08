@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Análisis de Sitios Web - Metodología Atelier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CARRUSEL SUPERIOR FIJO -->
+  <div class="top-carousel" role="region" aria-label="Mensajes destacados">
+    <div class="carousel-viewport">
+      <div class="carousel-track" id="carousel-track">
+        <span>Análisis de Sitios Web Sobresalientes</span>
+        <span>Evaluación Crítica y Diseño Contemporáneo</span>
+        <span>Metodología Atelier · Creatividad Digital</span>
+        <span>Usabilidad · Estructura · Visuales · Desempeño</span>
+      </div>
+    </div>
+  </div>
+
+  <!--  MENÚ FIJO -->
+  <nav class="navbar">
+    <div class="logo">Atelier · Análisis</div>
+    <ul class="nav-links">
+      <li><a href="#portada">Inicio</a></li>
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#sitio1">Sitio 1</a></li>
+      <li><a href="#sitio2">Sitio 2</a></li>
+      <li><a href="#sitio3">Sitio 3</a></li>
+      <li><a href="#sitio4">Sitio 4</a></li>
+      <li><a href="conclusiones.html">Conclusiones</a></li>
+    </ul>
+
+    <!-- Menú hamburguesa -->
+    <button class="burger" aria-label="Abrir menú">
+      <span class="line1"></span>
+      <span class="line2"></span>
+      <span class="line3"></span>
+    </button>
+  </nav>
+
+  <!-- HERO CON VÍDEO -->
+  <header id="portada" class="hero">
+    <div class="hero-video-wrap" aria-hidden="true">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+        <source src="videos/hero.mp4.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-inner">
+      <h1 class="fade-in">Análisis de Sitios Web Premiados</h1>
+      <p class="fade-in delay-1">Uso de la Metodología Atelier · Maquetación Web con Hojas de Estilo</p>
+      <a href="#introduccion" class="btn-primary">Comenzar análisis</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="introduccion" class="section">
+      <div class="container">
+        <h2>Introducción</h2>
+        <p>
+          En esta práctica se analizan cuatro sitios web reconocidos en plataformas de premios
+          internacionales como Awwwards, Webby Awards y CSS Design Awards. El objetivo es aplicar
+          la metodología Atelier evaluando estructura, usabilidad, visuales y desempeño.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sitios analizados -->
+    <section id="sitio1" class="section card">
+      <div class="container sitio-grid">
+        <div class="sitio-media">
+          <img src="img/obys.png" alt="Captura de Obys Agency" />
+        </div>
+        <div class="sitio-content">
+          <h2>
+            1. <a href="https://www.awwwards.com/sites/obys-agency" target="_blank" rel="noopener">Obys Agency</a>
+          </h2>
+          <div class="analisis">
+            <h3>Estructura</h3>
+            <p>Navegación vertical con animaciones suaves y jerarquía clara.</p>
+            <h3>Usabilidad</h3>
+            <p>Interacción intuitiva; el exceso de movimiento puede distraer.</p>
+            <h3>Visuales</h3>
+            <p>Minimalismo, tipografía expresiva y microinteracciones fluidas.</p>
+            <h3>Desempeño</h3>
+            <p>Carga moderada por vídeo, optimizada para navegadores modernos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sitio2" class="section card">
+      <div class="container sitio-grid">
+        <div class="sitio-media">
+          <img src="img/active-theory.png" alt="Captura de Active Theory" />
+        </div>
+        <div class="sitio-content">
+          <h2>
+            2. <a href="https://www.awwwards.com/sites/active-theory" target="_blank" rel="noopener">Active Theory</a>
+          </h2>
+          <div class="analisis">
+            <h3>Estructura</h3>
+            <p>Scroll horizontal con secciones diferenciadas.</p>
+            <h3>Usabilidad</h3>
+            <p>Transiciones coherentes y control del flujo de navegación.</p>
+            <h3>Visuales</h3>
+            <p>Uso intensivo de WebGL para experiencias inmersivas.</p>
+            <h3>Desempeño</h3>
+            <p>Requiere dispositivos potentes para rendimiento óptimo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sitio3" class="section card">
+      <div class="container sitio-grid">
+        <div class="sitio-media">
+          <img src="img/webby.png" alt="Captura de The Webby Awards" />
+        </div>
+        <div class="sitio-content">
+          <h2>
+            3. <a href="https://www.webbyawards.com/" target="_blank" rel="noopener">The Webby Awards</a>
+          </h2>
+          <div class="analisis">
+            <h3>Estructura</h3>
+            <p>Diseño editorial con menú fijo y módulos bien jerarquizados.</p>
+            <h3>Usabilidad</h3>
+            <p>Alta legibilidad; algunas secciones son densas en contenido.</p>
+            <h3>Visuales</h3>
+            <p>Paleta sobria, tipografía moderna, excelente responsive.</p>
+            <h3>Desempeño</h3>
+            <p>Buen tiempo de carga y optimización de recursos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sitio4" class="section card">
+      <div class="container sitio-grid">
+        <div class="sitio-media">
+          <img src="img/cssdesignawards.png" alt="Captura de CSS Design Awards" />
+        </div>
+        <div class="sitio-content">
+          <h2>
+            4. <a href="https://www.cssdesignawards.com/" target="_blank" rel="noopener">CSS Design Awards</a>
+          </h2>
+          <div class="analisis">
+            <h3>Estructura</h3>
+            <p>Catálogo visual con filtros y categorías claras.</p>
+            <h3>Usabilidad</h3>
+            <p>Navegación sencilla; scroll largo puede cansar.</p>
+            <h3>Visuales</h3>
+            <p>Diversidad de estilos con imágenes protagonistas.</p>
+            <h3>Desempeño</h3>
+            <p>Equilibrio entre carga de imágenes y fluidez.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Trabajo realizado por Selina Prieto Fernández · 2025-2026 · Maquetación Web con Hojas de Estilo</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
